@@ -1,0 +1,75 @@
+@import "./fonts.css";
+
+:root {
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-gray-950: hsl(0, 0%, 7%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --spacing-300: 1.5rem;  /* 24px */
+  --spacing-150: 0.75rem; /* 12px */
+  --spacing-100: 0.5rem;  /* 8px */
+  --spacing-50: 0.25rem;  /* 4px */
+
+  --font-family-base: "Figtree", sans-serif;
+
+  --text-preset-1-size: 1.5rem;     /* 24px */
+  --text-preset-1-line-height: 1.5;  /* 150% */
+  --text-preset-1-weight: 800;
+
+  --text-preset-2-size: 1rem;       /* 16px */
+  --text-preset-2-line-height: 1.5;
+  --text-preset-2-weight: 500;
+
+  --text-preset-3-size: 0.875rem;   /* 14px */
+  --text-preset-3-line-height: 1.5;
+  --text-preset-3-weight: 500;
+
+  --text-preset-3-bold-size: 0.875rem;
+  --text-preset-3-bold-line-height: 1.5;
+  --text-preset-3-bold-weight: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Figtree", sans-serif;
+  font-size: var(--text-preset-3-size);
+  line-height: var(--text-preset-3-line-height);
+  font-weight: var(--text-preset-3-weight);
+  color: var(--color-gray-950);
+  background-color: var(--color-yellow);
+}
+
+.text-preset-1 {
+  font-size: var(--text-preset-1-size);
+  line-height: var(--text-preset-1-line-height);
+  font-weight: var(--text-preset-1-weight);
+}
+
+.text-preset-2 {
+  font-size: var(--text-preset-2-size);
+  line-height: var(--text-preset-2-line-height);
+  font-weight: var(--text-preset-2-weight);
+}
+
+.text-preset-3 {
+  font-size: var(--text-preset-3-size);
+  line-height: var(--text-preset-3-line-height);
+  font-weight: var(--text-preset-3-weight);
+}
+
+.text-preset-3-bold {
+  font-size: var(--text-preset-3-size);
+  line-height: var(--text-preset-3-line-height);
+  font-weight: var(--text-preset-3-bold-weight);
+}

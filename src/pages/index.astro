@@ -1,11 +1,73 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import IllustrationArticle from "../assets/illustration-article.svg";
+import Avatar from "../assets/image-avatar.webp";
 ---
 
 <Layout>
-	<Welcome />
+  <article>
+    <img
+      class="image"
+      src={IllustrationArticle.src}
+      alt="Illustration Article"
+    />
+
+    <span class="badge text-preset-3-bold">Learning</span>
+
+    <p class="publish-date text-preset-3">
+      Published
+      <time datetime="2023-12-21">21 Dec 2023</time>
+    </p>
+
+    <h2 class="title text-preset-1">HTML & CSS foundations</h2>
+
+    <p class="description text-preset-2">
+      These languages are the backbone of every website, defining structure,
+      content, and presentation.
+    </p>
+
+    <div class="author">
+      <img src={Avatar.src} alt="avatar" />
+      <span class="text-preset-3-bold">Greg Hooper</span>
+    </div>
+  </article>
 </Layout>
+
+<style>
+  article {
+    background-color: var(--color-white);
+    width: 24rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-300);
+    gap: var(--spacing-300);
+    box-shadow: 8px 8px 0 0 #000;
+    border: 1px solid var(--color-gray-950, #111);
+
+    img {
+      border-radius: 10px;
+    }
+
+    .badge {
+      border-radius: 4px;
+      padding: var(--spacing-50) var(--spacing-150);
+      background-color: var(--color-yellow);
+      width: fit-content;
+    }
+
+    .description {
+      color: var(--color-gray-500);
+    }
+
+    .author {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-100);
+      img {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+</style>

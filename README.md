@@ -1,46 +1,45 @@
-# Astro Starter Kit: Basics
+# Frontend Mentor - Blog preview card solution
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Table of contents
 
-## 🚀 Project Structure
+- [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
+  - [Table of contents](#table-of-contents)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Author](#author)
 
-Inside of your Astro project, you'll see the following folders and files:
+## The challenge
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+Try to get as pixel perfect as possible using a Figma file. It took me around an hour
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Screenshot
 
-## 🧞 Commands
+![](./screenshot.png)
 
-All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## Links
 
-## 👀 Want to learn more?
+- Solution URL: [Blog Preview Card](https://shmueltopo.github.io/fem-blog-preview-card/)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Built with
+
+- Semantic HTML5 markup
+- Vanilla CSS
+- Flexbox
+- [Astro](https://astro.build/) - Full Stack framework
+
+## What I learned
+
+- The power of Figma: how I can simply copy-paste CSS code and variables into the codebase 
+- A new workflow: taking screenshots of Figma variables and using AI to generate CSS variables
+
+## Author
+
+- Website - [Shmuel Toporowitch](https://shmuel.dev)
+- Frontend Mentor - [@shmuelTopo](https://www.frontendmentor.io/profile/shmuelTopo)
+- Linkedin - [@shmuel-topo](https://www.linkedin.com/in/shmuel-topo/)
